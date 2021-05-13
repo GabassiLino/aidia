@@ -1,0 +1,44 @@
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-rows: repeat(3);
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color: rgb(174, 42, 207);
+    height: 70px;
+    width: 58vw;
+    grid-template-rows: repeat(10);
+    
+}
+.tiempo{
+    grid-row: 1/2;
+    grid-column: 3/3;
+    background-color: rgb(112, 40, 163);
+    text-align: center;
+    color: rgb(237, 173, 255);
+    font-size: larger;
+    overflow: hidden;
+}
+.perfil{
+    grid-row: 1/2;
+    text-align: center;
+    grid-column: 1/1;
+    background-color: rgb(112, 40, 163);
+    color: white;
+    font-size: larger;
+    overflow: hidden;
+}
+.publicacion{
+    grid-row: 2/4;
+    grid-column: 1/4;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: larger;
+    
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    overflow: hidden;
+}
+.publicacion:hover{
+    color: rgb(191, 51, 209);
+}

@@ -1,0 +1,33 @@
+.comentar{
+    background-color: white;
+    text-align: left;
+    margin-left: 1%;
+    resize: none;
+}
+.areaComent{
+    border-bottom: 2px solid #9b9b9b;
+    border-left: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color:rgb(138, 138, 138);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin-left: 0%;
+    box-sizing: initial;
+    resize: none;
+    border-top: transparent;
+    border-right: transparent;
+}
+.inputUser{
+    border-bottom: 2px solid #9b9b9b;
+    border-left: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color:rgb(138, 138, 138);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin-left: 0%;
+    border-top: transparent;
+}
